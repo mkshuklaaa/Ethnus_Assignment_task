@@ -1,0 +1,49 @@
+/* Table Styling */
+table {
+    width: 60%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #a0d0d0; /* Light blue */
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #5ba8a0;
+    color: white;
+    font-weight: bold;
+}
+
+/* Shapes Styling */
+.shape-container {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.shape {
+    width: 100px;
+    height: 60px;
+    border: 2px solid green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rounded {
+    border-radius: 10px;
+}
+
+.oval {
+    width: 100px;
+    height: 60px;
+    border-radius: 50%;
+}

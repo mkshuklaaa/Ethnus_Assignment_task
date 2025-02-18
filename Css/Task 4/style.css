@@ -1,0 +1,48 @@
+/* Sidebar Navigation */
+.sidenav {
+    height: 100vh;
+    width: 60px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 20px;
+}
+
+/* Sidebar buttons */
+.sidenav .btn {
+    width: 60px;
+    height: 50px;
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    font-size: 0px;
+    transition: width 0.3s ease-in-out, font-size 0.3s ease-in-out;
+}
+
+/* Colors for buttons */
+.green { background-color: green; }
+.blue { background-color: blue; }
+.red { background-color: red; }
+.gray { background-color: gray; }
+
+/* Hover effect */
+.sidenav .btn:hover {
+    width: 150px;
+    font-size: 16px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+/* Main content area */
+.main-content {
+    margin-left: 80px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}

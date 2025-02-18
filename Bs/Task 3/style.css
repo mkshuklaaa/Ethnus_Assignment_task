@@ -1,0 +1,31 @@
+/* Table styling */
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+
+/* Header row */
+th {
+    background-color: green;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+/* Data cells */
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Alternating row colors */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}

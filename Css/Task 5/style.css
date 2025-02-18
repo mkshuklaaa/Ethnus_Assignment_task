@@ -1,0 +1,58 @@
+/* Page Background */
+body {
+    background-color: #d4cc44;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* Main Container */
+.container {
+    display: flex;
+    max-width: 800px;
+    background-color: #eee8aa;
+    padding: 20px;
+    border: 1px solid #666;
+    margin: auto;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 150px;
+    padding-right: 20px;
+}
+
+/* Sidebar Buttons */
+.nav-button {
+    display: block;
+    width: 120px;
+    padding: 5px;
+    margin-bottom: 5px;
+    background-color: white;
+    color: blue;
+    text-decoration: none;
+    border: 2px solid black;
+    text-align: center;
+}
+
+/* Main Content */
+.content {
+    flex: 1;
+}
+
+/* Heading */
+h1 {
+    color: purple;
+    font-size: 24px;
+}
+
+/* Paragraphs */
+p {
+    color: black;
+}
+
+/* Horizontal Line */
+hr {
+    border: none;
+    border-top: 1px dotted black;
+    margin: 10px 0;
+}
